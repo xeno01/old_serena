@@ -440,7 +440,7 @@ float:left;
 
 
     /* 背景画像の透過用css */
-    background-image:url(http://free-photos-ls02.gatag.net/images/lgf01a201401241700.jpg);
+    background-image:url(img/b.jpg);
 
     
 
@@ -460,7 +460,7 @@ float:left;
    
 
     /* 背景画像の透過用css */
-    background-image:url(http://free-photos-ls02.gatag.net/images/lgf01a201402022200.jpg); 
+    background-image:url(img/a.jpg); 
 
 
     background-size: cover;
@@ -474,7 +474,7 @@ float:left;
 
 
     /* 背景画像の透過用css */
-    background-image:url(http://01.gatag.net/img/201505/13l/gatag-00004104.jpg); 
+    background-image:url(img/c.jpg); 
 
 
     background-size: cover;
@@ -488,7 +488,7 @@ float:left;
 .back_COMMENT{
 
     /* 背景画像の透過用css */
-background-image: url(http://01.gatag.net/img/201506/17l/gatag-00007485.jpg);
+background-image: url(img/djpg);
 
   background-size: cover;
   background-position: center;
@@ -501,7 +501,7 @@ background-color: rgba(0,0,0,0.5)
 
 }
 
-.back_CONTACT{
+.back_COMMENT{
 
     
 
@@ -512,7 +512,7 @@ background-color: rgba(0,0,0,0.5)
    
 
     /* 背景画像の透過用css */
-    background-image:url(http://gahag.net/img/201607/04s/gahag-0103074658-1.jpg); 
+    background-image:url(img/b.jpg); 
 
 
 
@@ -528,10 +528,12 @@ background-color: rgba(0,0,0,0.5)
 
 }
 
-.back_CONTACT::before{
-	/* 透過した黒を重ねる */
+/*
+
+.back_COMMENT::before{
+	/* 透過した黒を重ねる *//*
 	background-color: rgba(255,255,255,0.5);
-	/* どの範囲に重ねるかを指定 */
+    /* どの範囲に重ねるかを指定 *//*
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -540,7 +542,7 @@ background-color: rgba(0,0,0,0.5)
     content: '';
     margin-bottom:28px;
 }
-
+*/
 
 
 .back_con_tw_all{
